@@ -1,2 +1,369 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blooming Nature - Energi Bersih untuk Masa Depan</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigasi -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="sunflower logo.png" alt="Nika Logo" class="logo" />
+          Blooming Nature
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#layanan">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimoni">Testimoni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary ms-lg-3" href="#">Hubungi Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="display-4 mb-4">
+              Pupuk POC, Ramah Alam, Hasil Luar Biasa
+            </h1>
+            <p class="lead mb-4">
+              Pupuk Organik Cair (POC) adalah solusi alami yang efektif untuk meningkatkan kesuburan tanah
+              dan merangsang pertumbuhan tanaman dengan cara yang ramah lingkungan. Dengan menggunakan pupuk
+              POC, tanaman Anda akan tumbuh lebih sehat, subur, dan kuat, tanpa merusak ekosistem sekitar.
+            </p>
+            <a href="#layanan" class="btn btn-light btn-lg"
+              >Informasi Lebih Lanjut</a
+            >
+          </div>
+          <div class="col-lg-6 text-center">
+            <img
+              src="pengaplikasian poc.jpeg"
+              alt="Pupuk POC"
+              class="img-fluid hero-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section id="tentang" class="about-section">
+      <div class="container">
+        <h2 class="text-center mb-5">Tentang Kami</h2>
+        <div class="row align-items-center">
+          <div class="col-md-6"
+          style="text-align: center;">
+            <img
+              src="sunflower logo.png"
+              alt="Tentang Kami"
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-md-6">
+            <h3>Mengapa Memilih Blooming Nature?</h3>
+            <p>
+              Blooming Nature menggunakan bahan yang berkualitas sehingga pupuk POC yang dihasilkan berkualitas
+              yang dapat membuat tanaman anda menjadi lebih subur dan memberikan output yang menjanjikan.
+            </p>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fas fa-check-circle text-primary me-2"></i>Pupuk POC lebih
+                ramah lingkungan dan mudah diserap tanaman.
+              </li>
+              <li>
+                <i class="fas fa-check-circle text-primary me-2"></i>Mengandung
+                berbagai nutrisi penting dan mikroorganisme yang dapat meningkatkan
+                kesuburan tanah.
+              </li>
+              <li>
+                <i class="fas fa-check-circle text-primary me-2"></i>Pengaplikasian
+                pupuk lebih mudah dibandingkan dengan pupuk lainnya.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Layanan -->
+    <section id="layanan" class="services-section">
+      <div class="container">
+        <h2 class="text-center mb-5">Layanan Kami</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card service-card text-center h-100">
+              <div class="card-body">
+                <div class="service-icon mb-3">🌻</div>
+                <h4>Pembuatan pupuk POC yang berkualitas</h4>
+                <p>
+                  Menggunakan bahan yang berkualitas sehingga anda tidak perlu ragu  
+                  dengan memilih produk kami.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card service-card text-center h-100">
+              <div class="card-body">
+                <div class="service-icon mb-3">💁‍♀️</div>
+                <h4>Jaminan</h4>
+                <p>
+                  Kami memberikan jaminan mutu pada produk kami, apabila selama
+                  penggunaan tidak memberikan hasil yang signifikan (s&k berlaku)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card service-card text-center h-100">
+              <div class="card-body">
+                <div class="service-icon mb-3">✨</div>
+                <h4>Konsultasi</h4>
+                <p>
+                  Kami berikan jasa konsultasi bagi anda yang masih bingung dengan
+                  cara penggunaan produk kami sehingga anda puas dengan produk kami.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section id="testimoni" class="testimonial-section">
+      <div class="container">
+        <h2 class="text-center mb-5">Apa Kata Pelanggan Kami?</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card testimonial-card h-100">
+              <div class="card-body">
+                <p>
+                  Produk Blooming Nature memang pupuk yang paling bagus yang pernah
+                  saya gunakan sejauh ini. Pekarangan rumah saya menjadi lebih 
+                  indah karena tanaman hias saya tumbuh subur.
+                </p>
+                <div class="d-flex align-items-center mt-3">
+                  <img
+                    src="fais.jpg"
+                    alt="Avatar"
+                    class="testimonial-avatar me-3"
+                  />
+                  <div>
+                    <h5 class="mb-0">Andi Sitti Nurfaisah</h5>
+                    <small>Florist</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card testimonial-card h-100">
+              <div class="card-body">
+                <p>
+                  POC Blooming Nature hasilnya memang terbukti sangat bagus karena
+                  tanaman saya yang hampir mati bisa tumbuh kembali subur. Pelayanannya 
+                  juga sangat ramah dan responsif.
+                </p>
+                <div class="d-flex align-items-center mt-3">
+                  <img
+                    src="gav.jpg"
+                    alt="Avatar"
+                    class="testimonial-avatar me-3"
+                  />
+                  <div>
+                    <h5 class="mb-0">Gavrila Chavvah Bijang Sahetapy</h5>
+                    <small>Dog Breeder</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card testimonial-card h-100">
+              <div class="card-body">
+                <p>
+                  Saya sudah menggunakan pupuk POC ini di kebun saya dan hasilnya
+                  tanaman di kebun saya menjadi subur dan hasil dari kebun saya
+                  meningkat. Penggunaannya begitu mudah karena cukup diaplikasikan
+                  ke tanah dan tanaman langsung menyerap pupuk dengan baik. Saya 
+                  merekomendasikan produk POC ini kepada para petani dan pecinta
+                  tanaman yang ingin merawat tanamannya secara alami dan efektif.
+                </p>
+                <div class="d-flex align-items-center mt-3">
+                  <img
+                    src="rarahae.jpg"
+                    alt="Avatar"
+                    class="testimonial-avatar me-3"
+                  />
+                  <div>
+                    <h5 class="mb-0">St. Hajrah Haerun Amalia</h5>
+                    <small> </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq-section">
+      <div class="container">
+        <h2 class="text-center mb-5">Pertanyaan yang Sering Diajukan</h2>
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+              >
+                Berapa harga pupuk POC?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Harga pupuk kami tergantung dari kandungan POC yang kami gunakan
+                karena kami memiliki kandungan pupuk yang bervariasi.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+              >
+                Apakah pupuk ini ramah lingkungan?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Ya, pupuk yang kami hasilkan menggunakan bahan organik yang mudah
+                diserap oleh tanaman dan tentunya sangat ramah lingkungan.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+              >
+                Apakah ada biaya tertentu yang harus dikeluarkan untuk membeli pupuk ini?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Ya, kami memasang harga untuk pengantaran pupuk kami jika anda memilih
+                untuk dikirimkan di lokasi anda.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="contact-section">
+      <div class="container">
+        <h2 class="text-center mb-5">Hubungi Kami</h2>
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <form>
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="nama" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea
+                  class="form-control"
+                  id="pesan"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p class="mb-0">&copy; 2025 Blooming Nature. Pupuk POC, Ramah Alam, Hasil Luar Biasa.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS (Opsional, hanya untuk komponen Bootstrap yang memerlukan JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
